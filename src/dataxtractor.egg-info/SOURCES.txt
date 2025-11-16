@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/dataxtractor/__init__.py
+src/dataxtractor/__main__.py
+src/dataxtractor/cli.py
+src/dataxtractor/config.py
+src/dataxtractor/exceptions.py
+src/dataxtractor/io_utils.py
+src/dataxtractor/mapping.py
+src/dataxtractor/sec_client.py
+src/dataxtractor/yahoo_client.py
+src/dataxtractor.egg-info/PKG-INFO
+src/dataxtractor.egg-info/SOURCES.txt
+src/dataxtractor.egg-info/dependency_links.txt
+src/dataxtractor.egg-info/entry_points.txt
+src/dataxtractor.egg-info/requires.txt
+src/dataxtractor.egg-info/top_level.txt

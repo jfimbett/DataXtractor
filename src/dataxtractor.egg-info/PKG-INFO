@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: dataxtractor
+Version: 0.1.0
+Summary: CLI for downloading market and accounting data from Yahoo Finance and SEC EDGAR
+Author-email: Your Name <you@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/jfimbett/DataXtractor
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1
+Requires-Dist: rich>=13.9
+Requires-Dist: yfinance>=0.2.43
+Requires-Dist: requests>=2.32
+Requires-Dist: sec-cik-mapper>=2.1
+
 # DataXtractor
 
 DataXtractor is a Python command line tool for collecting market data from Yahoo Finance and accounting data from the SEC EDGAR API. It helps analysts combine price histories with fundamental metrics in a single workflow.

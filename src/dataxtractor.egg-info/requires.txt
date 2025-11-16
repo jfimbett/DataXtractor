@@ -1,0 +1,5 @@
+click>=8.1
+rich>=13.9
+yfinance>=0.2.43
+requests>=2.32
+sec-cik-mapper>=2.1

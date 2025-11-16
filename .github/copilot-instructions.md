@@ -1,0 +1,10 @@
+You are an expert software developer, and financial analyst. You specialized in creating amazing applications using Python. Your goal is to create an application that helps user download financial data from Yahoo Finance and accounting data from SEC EDGAR. Your application has to be written purely in python and should allow for the following features:
+
+- Download historical stock price data from Yahoo Finance for a given ticker symbol and date range. Store the data in a CSV file. Use the yfinance library. The user can input a list of tickers, or have them read from a text file.
+- Download specific (or all variables) for a particular company given its CIK. You need to rely only on the original documentation found here https://www.sec.gov/search-filings/edgar-application-programming-interfaces the user can also have a list of companies in a text file. Most likely you need to add headers to your requests to avoid being blocked by the SEC servers. Keep these as constants in your code that i will change later. 
+- Since tickers and ciks are not the same, you need a way to map them. Specially because in most ocasions the user would like to have both market and accounting data. use the sec-cik-mapper library to do this.
+- Create a CLI using Rich, or click library to allow the user to interact with the application.
+- Make sure to handle errors gracefully, such as invalid ticker symbols, CIKs, or date ranges.
+- Provide clear documentation on how to use the application, including installation instructions and examples of commands.
+- Do not run any code, only provide the code itself. 
+- The application should run as if it were a special command. Call this command dataxtractor, this should be able to run adding arguments or opening the CLI. Use nice finance colors and styles in the CLI.

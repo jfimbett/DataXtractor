@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataxtractor"
+version = "0.1.0"
+description = "CLI for downloading market and accounting data from Yahoo Finance and SEC EDGAR"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = [
+    "click>=8.1",
+    "rich>=13.9",
+    "yfinance>=0.2.43",
+    "requests>=2.32",
+    "sec-cik-mapper>=2.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/jfimbett/DataXtractor"
+
+[project.scripts]
+dataxtractor = "dataxtractor.cli:main"
